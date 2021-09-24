@@ -20,14 +20,19 @@ class Game {
 
 
     setup() {
-        function setup() {
             createCanvas(1280, 720);
             background('white');
+
+            for(var i = 0; i < 3;i++) {
+                var rectX = 200;
+                var rectY = 100;
+
+                var slot = new Slot(-,-,-,-,rectX,rectY)
+            }
           }
-    }
 
     draw() {
-        // subclasses
+        
         
     }
 }
